@@ -1,0 +1,23 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 20 Jan 2022 14:06:09 at https://2022-bnb.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://2022-bnb.com/ -O1 "C:\My Web Sites\https___2022-bnb.com_" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:06:31	Error: 	"Connect Error" (-4) after 2 retries at link https://2022-bnb.com/robots.txt (from primary/primary)
+14:06:31	Warning: 	Retry after error -4 (Connect Error) at link https://2022-bnb.com/ (from primary/primary)
+14:07:08	Warning: 	Retry after error -4 (Connect Error) at link https://2022-bnb.com/css/style_v_1.css (from https://2022-bnb.com/)
+14:08:19	Warning: 	Retry after error -4 (Connect Error) at link https://2022-bnb.com/bnb/images/content/coin.png (from https://2022-bnb.com/bnb/index.html)
+14:08:19	Warning: 	Retry after error -4 (Connect Error) at link https://pro.fontawesome.com/releases/v5.10.0/css/all.css (from https://2022-bnb.com/bnb/index.html)
+14:08:20	Error: 	"Not Found" (404) at link https://2022-bnb.com/bnb/dist/css/app.css (from https://2022-bnb.com/bnb/index.html)
+14:08:41	Error: 	"Not Found" (404) at link https://2022-bnb.com/eth/dist/css/app.css (from https://2022-bnb.com/eth/index.html)
+14:08:42	Error: 	"Not Found" (404) at link https://2022-bnb.com/btc/dist/css/app.css (from https://2022-bnb.com/btc/index.html)
+14:08:44	Warning: 	File not parsed, looks like binary: https://2022-bnb.com/btc/images/content/logo-coin.webp
+14:08:44	Warning: 	Retry after error -4 (Connect Error) at link https://pro.fontawesome.com/releases/v5.10.0/css/all.css (from https://2022-bnb.com/bnb/index.html)
+14:08:44	Warning: 	Retry after error -4 (Connect Error) at link https://2022-bnb.com/bnb/fonts/OpenSans-Regular.1b0809.ttf (from https://2022-bnb.com/bnb/css/app.css)
+14:09:05	Error: 	"Connect Error" (-4) after 2 retries at link https://pro.fontawesome.com/releases/v5.10.0/css/all.css (from https://2022-bnb.com/bnb/index.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 56 seconds : 48 links scanned, 37 files written (3354953 bytes overall) [1577350 bytes received at 8962 bytes/sec], 2708587 bytes transferred using HTTP compression in 26 files, ratio 33%, 3.0 requests per connection
+(5 errors, 7 warnings, 0 messages)
